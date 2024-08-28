@@ -1,0 +1,25 @@
+.input-field {
+    margin-bottom: 1rem;
+  }
+  
+  .input-field label {
+    display: block;
+    color: #4a4a4a;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d1d1;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input-field input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25);
+  }
+  
